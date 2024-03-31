@@ -9,6 +9,9 @@ button5 = types.KeyboardButton(text='фото')
 keyboard1 = [
     [button1, button2, button3, button4 , button5]
 ]
-
+keyboard4 = [
+    [button1, button2, ]
+]
 kb1 = types.ReplyKeyboardMarkup(keyboard=keyboard1,resize_keyboard=True)
 kb2 = types.ReplyKeyboardMarkup(keyboard=keyboard1,resize_keyboard=True)
+kb4 = types.ReplyKeyboardMarkup(keyboard=keyboard4,resize_keyboard=True)
