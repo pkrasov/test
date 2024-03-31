@@ -11,3 +11,4 @@ keyboard1 = [
 ]
 
 kb1 = types.ReplyKeyboardMarkup(keyboard=keyboard1,resize_keyboard=True)
+kb2 = types.ReplyKeyboardMarkup(keyboard=keyboard1,resize_keyboard=True)
